@@ -1,0 +1,15 @@
+#include <stdio.h>
+int temperature(celsius,fahrenheit);
+
+int main()
+{  int celsius,fahrenheit;
+printf("Celsius : \n");
+scanf("%d",&celsius);
+printf("%d Celsius = %d Fahrenheit",celsius,temperature);
+
+    return 0;
+}
+int temperature(celsius,fahrenheit){
+fahrenheit= (celsius + 32);
+return fahrenheit;
+}
